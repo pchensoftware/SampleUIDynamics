@@ -49,11 +49,15 @@
     [self.view addSubview:self.box3];
     
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    
+    UIButton *startAnimationButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    startAnimationButton.frame = CGRectMake(50, 200, 220, 44);
+    [startAnimationButton setTitle:@"Animate" forState:UIControlStateNormal];
+    [startAnimationButton addTarget:self action:@selector(_startAnimationButtonTapped) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:startAnimationButton];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
+- (void)_startAnimationButtonTapped {
     [self dynamicsStep1];
     [self performSelector:@selector(dynamicsStep2) withObject:nil afterDelay:2];
 }

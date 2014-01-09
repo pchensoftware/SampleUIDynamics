@@ -14,9 +14,7 @@
 		81331DC9184009B200F6789C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81331DC8184009B200F6789C /* main.m */; };
 		81331DCD184009B200F6789C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81331DCC184009B200F6789C /* AppDelegate.m */; };
 		81331DCF184009B200F6789C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81331DCE184009B200F6789C /* Images.xcassets */; };
-		81331DED184009CD00F6789C /* StartTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81331DEC184009CD00F6789C /* StartTableController.m */; };
 		81331DF01840104700F6789C /* BoxesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81331DEF1840104700F6789C /* BoxesController.m */; };
-		81331DF318401A4F00F6789C /* CollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81331DF218401A4F00F6789C /* CollectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +30,8 @@
 		81331DCC184009B200F6789C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		81331DCE184009B200F6789C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81331DD5184009B300F6789C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		81331DEB184009CD00F6789C /* StartTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartTableController.h; sourceTree = "<group>"; };
-		81331DEC184009CD00F6789C /* StartTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartTableController.m; sourceTree = "<group>"; };
 		81331DEE1840104700F6789C /* BoxesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxesController.h; sourceTree = "<group>"; };
 		81331DEF1840104700F6789C /* BoxesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxesController.m; sourceTree = "<group>"; };
-		81331DF118401A4F00F6789C /* CollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionController.h; sourceTree = "<group>"; };
-		81331DF218401A4F00F6789C /* CollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +79,8 @@
 		81331DC2184009B200F6789C /* SampleUIDynamics */ = {
 			isa = PBXGroup;
 			children = (
-				81331DEB184009CD00F6789C /* StartTableController.h */,
-				81331DEC184009CD00F6789C /* StartTableController.m */,
 				81331DEE1840104700F6789C /* BoxesController.h */,
 				81331DEF1840104700F6789C /* BoxesController.m */,
-				81331DF118401A4F00F6789C /* CollectionController.h */,
-				81331DF218401A4F00F6789C /* CollectionController.m */,
 				81331DCB184009B200F6789C /* AppDelegate.h */,
 				81331DCC184009B200F6789C /* AppDelegate.m */,
 				81331DCE184009B200F6789C /* Images.xcassets */,
@@ -174,9 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81331DCD184009B200F6789C /* AppDelegate.m in Sources */,
-				81331DF318401A4F00F6789C /* CollectionController.m in Sources */,
 				81331DF01840104700F6789C /* BoxesController.m in Sources */,
-				81331DED184009CD00F6789C /* StartTableController.m in Sources */,
 				81331DC9184009B200F6789C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "StartTableController.h"
+#import "BoxesController.h"
 
 @implementation AppDelegate
 
@@ -15,7 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    StartTableController *controller = [[StartTableController alloc] init];
+    BoxesController *controller = [[BoxesController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
     self.window.rootViewController = nav;
     
